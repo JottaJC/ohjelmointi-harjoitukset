@@ -28,6 +28,7 @@ body{
     justify-content: center;
 }
 .header{
+    z-index: 10;
     padding: 0;
     color:white;
     display: flex;
@@ -750,4 +751,43 @@ h2{
     box-sizing: border-box;
     border-radius: 50%;
     object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+    :root {
+        --leveys-sivu: 1000px;
+    }
+}
+@media (max-width: 1000px) {
+    :root {
+        --leveys-sivu: 100%;
+    }
+    .header__alarivi {
+        display: none;
+    }
+    .footer__palvelut__eka-rivi,
+    .footer__palvelut__toka-rivi {
+        flex-wrap: wrap;
+    }
+    .sarake {
+        min-width: 49%;
+        max-width: 49%;
+        width: 49%;
+    }
+}
+@media (max-width: 600px) {
+    .sarake {
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .header__ylärivi__haku {
+        order: 10;
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .header__ylärivi {
+        flex-wrap: wrap;
+    }
 }
