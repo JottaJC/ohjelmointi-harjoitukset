@@ -1,7 +1,288 @@
-<h1>Projekti</h1>
+<html>
+<!--bro what-->
+<head>
+    <link href="tyylit.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
 
-<ul>
-  <li>
-    <a href="./html-kauppa/index.html">html-kauppa</a>
-  </li>
-</ul>
+<body>
+    <header>Tämä on harjoitus!</header>
+    <header class="header">
+        <div class="header__ylärivi">
+            <img src="pngwing.com.png" class="header__ylärivi__logo">
+            <div class="header__ylärivi__haku">
+                <img class="header__ylärivi__haku__ikoni" src="search_24dp_EE6622_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <input placeholder= "Hae Tuotteista" class="header__ylärivi__haku__kenttä">
+            </div>
+            <div class="log">
+                <button class="logg" type="button">
+                    <img class="icon-person icon-person--white" src="person-white.png">                 
+                    <img class="icon-person icon-person--black" src="person-black.png">
+                    <div >Kirjaudu/luo tili</div>
+                </button>
+            </div>
+            <div class="cartti">
+                <button class="header__ylärivi__ostoskori" type="button">
+                    <img class="icon-cart icon-cart--white" src="cart-white.png">       
+                    <img class="icon-cart icon-cart--black" src="cart-black.png">
+                </button>
+            </div>
+        </div>
+        <div class="header__alarivi">
+            <ul class="header__alarivi__kategoriat">
+                <li id="buttinn" class="header__alarivi__kategoriat__kategoria ">Tietokoneet</li>
+                <li id="buttinn" class="header__alarivi__kategoriat__kategoria ">Komponentit</li>
+                <li id="buttinn" class="header__alarivi__kategoriat__kategoria ">Ohjeislaitteet</li>
+                <li id="buttinn" class="header__alarivi__kategoriat__kategoria ">Pelaaminen</li>
+                <li id="buttinn" class="header__alarivi__kategoriat__kategoria ">Sim Racing</li>
+                <li id="buttinn" class="header__alarivi__kategoriat__kategoria ">Verkkotuotteet</li>
+                <li id="buttinn" class="header__alarivi__kategoriat__kategoria ">Tarvikkeet</li>
+                <li id="buttinn" class="header__alarivi__kategoriat__kategoria ">Erikoistuotteet</li>
+                <li id="buttinn" class="header__alarivi__kategoriat__kategoria ">Ohjelmistot</li>
+                <li id="buttinn" class="header__alarivi__kategoriat__kategoria ">Palvelut</li>
+                <li id="buttinn" class="header__alarivi__kategoriat__kategoria ">Kampanjat</li>
+            </ul>
+        </div>
+    </header>
+    <section class="sivun-sisältö"></section>
+    <footer class="footer">
+        <div class="footer__palvelut">
+            <div class="footer__palvelut__eka-rivi">
+                <div class="sarake asiakaspalvelujayritysmyynti">
+
+                    <div class="card__asiakaspalvelu">
+                        <h2 class="asiakaspalvelu__otsikko">ASIAKASPALVELU</h2>
+                        <ul class="asiakaspalvelu__aikataulut aikataulut">
+                            <li class="aikataulut__aikataulu">
+                                <div class="aikataulut__aikataulu__päivät">ma-su</div>
+                                <div class="aikataulut__aikataulu__auki">24/7</div>
+                            </li>
+                        </ul>
+                        <ul class="asiakaspalvelu__kontakti kontaktit">
+                            <li class="kontaktit__puhelin">
+                                <div class="kontaktit__puhelin_puheliniconi"><img class="ikonit" src="call.png"></div>
+                                <button id="buttin" class="kontaktit__puhelin_puhelinnumero">+358 29 70 6969</button>
+                            </li>
+                            <li class="kontaktit__sähköposti">
+                                <div class="kontaktit__sähköposti__sähköpostikuva"><img class="ikonit" src="mail.png"></div>
+                                <button id="buttin"
+                                    class="kontaktit__sähköposti__sähköpostiosoite">asiakaspalvelu@Meows.fi</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card_yritysmyynti">
+                        <h2 class="yritysmyynti__otsikko">YRITYSMYYNTI</h2>
+                        <ul class="yritysmyynti__aikataulut aikataulut">
+                            <li class="aikataulut__aikataulu">
+                                <div class="aikataulut__aikataulu__päivät">ma-su</div>
+                                <div class="aikataulut__aikataulu__auki">24/7</div>
+                            </li>
+                        </ul>
+                        <ul class="yritysmyynti__kontakti-kontaktit">
+                            <li class="kontaktit__puhelin">
+                                <div class="kontaktit__puhelin_puheliniconi"><img class="ikonit" src="call.png"></div>
+                                <button id="buttin" class="kontaktit__puhelin_puhelinnumero">+358 29 70 6969</button>
+                            </li>
+                        </ul>
+                        <ul class="yritysmyynti__sähköposti">
+                            <div class="yritysmyynti__sähköposti__sähköpostikuva"><img class="ikonit" src="mail.png"></div>
+                            <button id="buttin"
+                                class="yritysmyynti__sähköposti__sähköpostiosoite">yritysmyynti@Meows.fi</button>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sarake card_myymäläturku">
+                    <h2 class="myymäläturku__otsikko">MYYMÄLÄ TURKU</h2>
+                    <ul class="myymäläturku__aikataulut aikataulut">
+                        <li class="aikataulut__aikataulu">
+                            <div class="aikataulut__aikataulu__päivät">ma-pe</div>
+                            <div class="aikataulut__aikataulu__auki">11:00-19:00</div>
+                        </li>
+                        <li class="aikataulut__aikataulu">
+                            <div class="aikataulut__aikataulu__päivät_la">La</div>
+                            <div class="aikataulut__aikataulu__auki">10:00-16:00</div>
+                        </li>
+                    </ul>
+                    <div class="myymäläturku__yap">
+                        <div class="myymäläturku__yap__teksti">Maksuvälineenä käyvät yleisimmät
+                            pankki- ja luottokortit sekä
+                            moviilimaksutavat. Ei
+                            käteismaksumahdollisuutta
+                        </div>
+                    </div>
+                    <div class="myymäläpenis">
+                    <img class="lokaatio" src="location.png">
+                    <div class="myymäläturku__sijainti">
+                        <button id="buttin" class="myymäläturku__sijainti__osote">Kissasepänkatu 20320 Turku</button>
+                    </div>
+                    </div>
+                </div>
+                <div class="sarake card_yhteisöt">
+                    <h2 class="yhteisöt__otsikko">YHTEISÖT</h2>
+                    <ul class="yhteisöt__kategoriat">
+                        <li id="buttin" class="yhteisöt__kategoriat__kategoria">
+                            <img class="ikonit ikoni-ikonit--white" src="facebok.svg">
+                            <img class="ikonit ikoni-ikonit--oranssi" src="facebook-orange.svg">
+                        </li>
+                        <li id="buttin" class="yhteisöt__kategoriat__kategoria">
+                            <img class="ikonit ikoni-ikonit--white" src="instagram-brands (1).svg">
+                            <img class="ikonit ikoni-ikonit--oranssi" src="instagram-oranssi.svg">
+                        </li>
+                        <li id="buttin" class="yhteisöt__kategoriat__kategoria">
+                            <img class="ikonit ikoni-ikonit--white" src="twitter-brands.svg">
+                            <img class="ikonit ikoni-ikonit--oranssi" src="twitter-oranssi.svg">
+                        </li>
+                        <li id="buttin" class="yhteisöt__kategoriat__kategoria">
+                            <img class="ikonit ikoni-ikonit--white" src="youtube-brands (1).svg">
+                            <img class="ikonit ikoni-ikonit--oranssi" src="youtube-oranssi.svg">
+                        </li>
+                        <li id="buttin" class="yhteisöt__kategoriat__kategoria">
+                            <img class="ikonit ikoni-ikonit--white" src="tiktok-brands (1).svg">
+                            <img class="ikonit ikoni-ikonit--oranssi" src="tiktok-oranssi.svg">
+                        </li>
+                        <li id="buttin" class="yhteisöt__kategoriat__kategoria">
+                            <img class="ikonit ikoni-ikonit--white" src="linkedin-brands.svg">
+                            <img class="ikonit ikoni-ikonit--oranssi" src="in-oranssi.svg">
+                        </li>
+                    </ul>
+                </div>
+                <div class="sarake card_uutiskirje">
+                    <h2 class="uutiskirje__otsikko">TILAA UUTISKIRJE</h2>
+                    <div class="uutiskirje__yap">
+                        <div class="uutiskirje__yap__teksti">Tilaa Meow'sin uutiskirje ja saat
+                            ensinmäisten joukossa tietoa tarjouksista, tapahtumista ja uusista
+                        </div>
+                        <div>
+                            <button class="uutiskirje__yap__tilauspainike" type="button">TILAA UUTISKIRJE </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__palvelut__toka-rivi">
+                <div class="sarake card_info">
+                    <h2 class="info__otsikko">INFO</h2>
+                    <ul class="info__sivut">
+                        <li class="info__sivut__sivu">
+                            <img class="info__sivut__sivu__ikonit" src="yhteistiedot.png"> 
+                            <div class="info__sivut__sivu__teksti">
+                                Yhteistiedot
+                            </div>
+                        </li>
+                        <li class="info__sivut__sivu">
+                            <img class="info__sivut__sivu__ikonit" src="toimitustavat.png"> 
+                            <div class="info__sivut__sivu__teksti">
+                                Toimitustavat
+                            </div>
+                        </li>
+                        <li class="info__sivut__sivu">
+                            <img class="info__sivut__sivu__ikonit" src="maksutavat.png"> 
+                            <div class="info__sivut__sivu__teksti">
+                                Maksutavat
+                            </div>
+                        </li>
+                        <li class="info__sivut__sivu">
+                            <img class="info__sivut__sivu__ikonit" src="info.png"> 
+                            <div class="info__sivut__sivu__teksti">
+                                Takuupalautus
+                            </div>
+                        </li>
+                        <li class="info__sivut__sivu">
+                            <img class="info__sivut__sivu__ikonit" src="työhomma.png"> 
+                            <div class="info__sivut__sivu__teksti">
+                                Palvelut ja huolto
+                            </div>
+                        </li>
+                        <li class="info__sivut__sivu">
+                            <img class="info__sivut__sivu__ikonit" src="kysymys.png"> 
+                            <div class="info__sivut__sivu__teksti">
+                                Usein kysytyt kysymykset
+                            </div>
+                        </li>
+                        <li class="info__sivut__sivu">
+                            <img class="info__sivut__sivu__ikonit" src="talo.png"> 
+                            <div class="info__sivut__sivu__teksti">
+                                Yritysmyynti
+                            </div>
+                        </li>
+                        <li class="info__sivut__sivu">
+                            <img class="info__sivut__sivu__ikonit" src="ura.png"> 
+                            <div class="info__sivut__sivu__teksti">
+                                Ura Meow'sillä
+                            </div>
+                        </li>
+                        <li class="info__sivut__sivu">
+                            <img class="info__sivut__sivu__ikonit" src="paperi.png"> 
+                            <div class="info__sivut__sivu__teksti">
+                                Meow's Tuoteturva
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sarake card_shopsinshops">
+                    <h2 class="shopsinshops__otsikko">SHOPS-IN-SHOPS</h2>
+                    <ul class="shopsinshops__kategoriat">
+                        <li id="buttin" class="shopsinshops__kategoriat__kategoria">APNX</li>
+                        <li id="buttin" class="shopsinshops__kategoriat__kategoria">Ducky</li>
+                        <li id="buttin" class="shopsinshops__kategoriat__kategoria">Endgame Gear</li>
+                        <li id="buttin" class="shopsinshops__kategoriat__kategoria">HAVN</li>
+                        <li id="buttin" class="shopsinshops__kategoriat__kategoria">Kolink</li>
+                        <li id="buttin" class="shopsinshops__kategoriat__kategoria">Nitro Concepts</li>
+                        <li id="buttin" class="shopsinshops__kategoriat__kategoria">noblechairs</li>
+                        <li id="buttin" class="shopsinshops__kategoriat__kategoria">Streampity</li>
+                        <li id="buttin" class="shopsinshops__kategoriat__kategoria">TRYX</li>
+                    </ul>
+                    <ul class="shopsinshops__kategoriat">
+                        <li id="buttin" class="shopsinshops__kategoria">Asus</li>
+                        <li id="buttin" class="shopsinshops__kategoria">Acer</li>
+                        <li id="buttin" class="shopsinshops__kategoria">Akasa</li>
+                        <li id="buttin" class="shopsinshops__kategoria">Cooler Master</li>
+                        <li id="buttin" class="shopsinshops__kategoria">Cordair</li>
+                        <li id="buttin" class="shopsinshops__kategoria">Fractal Design</li>
+                        <li id="buttin" class="shopsinshops__kategoria">Giggabyte</li>
+                        <li id="buttin" class="shopsinshops__kategoria">Logitech</li>
+                        <li id="buttin" class="shopsinshops__kategoria">Phanteks</li>
+                    </ul>
+                </div>
+                <div class="sarake card_artikkelitjablogit">
+                    <h2 class="artikkelitjablogit__otsikko">ARTIKKELIT JA BLOGI</h2>
+                    <ul class="artikkelitjablogit__artikkelit">
+                        <li class="artikkelitjablogit__artikkeli">
+                            <a class="artikkelitjablogit__artikkeli__linkki" href="#">Meow's oppaat</a>
+                        </li>
+                        <li class="artikkelitjablogit__artikkeli">
+                            <a class="artikkelitjablogit__artikkeli__linkki" href="#">Meow's blogi</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sarake card_sertifikaatitartikkelit">
+                    <h2 class="sertifikaatitartikkelit__otsikko">SERTIFIKAATIT JA PALKINNOT</h2>
+                    <ul class="sertifikaatitartikkelit__logot">
+                        <li class="sertifikaatitartikkelit__logot__logo">
+                            <video class="sertifikaatitartikkelit__logot__menestyjätlogo" width="140" height="300" autoplay muted loop>
+                                <source class="sertifikaatitartikkelit__logot__menestyjätlogo__source"
+                                src="cat jumps at camera - Swizzlebag (240p, h264, youtube).mp4" type="video/mp4">
+                            </video>
+                        </li>
+                        <li class="sertifikaatitartikkelit__logot__logo">
+
+                            <video class="sertifikaatitartikkelit__logot__vuodenparaslogo" width="140" height="300" autoplay muted loop>
+                                <source class="sertifikaatitartikkelit__logot__vuodenparaslogo__source"
+                                src="happy happy happy cat original meme .mp4" type="video/mp4">
+                            </video>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="alahomma">
+            <div class="alahomma__ekatjutut">
+                <div class="alahomma__ekatjutut__takuujatoimitusehdot">Takuu-ja toimitusehdot   |</div>
+                <div class="alahomma__ekatjutut__tietosuojaseloste">Titeosuojaseloste</div>
+            </div>
+            <div class="alahomma__copyright">Copyright @ 2024 Meow-Works PC-store Oy</div>
+        </div>
+    </footer>
+</body>
+
+</html>
