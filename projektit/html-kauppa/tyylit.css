@@ -17,6 +17,16 @@ body{
     margin:0;
     font-family: "Open Sans";
 }
+.huomautus {
+    font-size: 20px;
+    min-height: 60px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(107, 3, 125);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
 .header{
     padding: 0;
     color:white;
@@ -682,7 +692,10 @@ h2{
     padding: 0;
 }
 .alahomma{
-    padding: 14px 0;
+    width: var(--leveys-sivu);
+    min-width: var(--leveys-sivu);
+    max-width: var(--leveys-sivu);
+    padding: 0;
     box-sizing: border-box;
     background-color: #191C1F;
     display: flex;
